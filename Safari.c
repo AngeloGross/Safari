@@ -10,13 +10,28 @@
 
 #include <stdio.h>
 
-seeLion()
+void seeLion()
+{
+	printf("\nwhooaaaaaa, whooaaaaaa");
+}
 
 seeElephant()
 
 
 int main(void)
 {
+	char cUserInput;
+	printf("Please choose 'L' if you want to see a lion\nor 'E' if you want to see an elephant\n");
+	scanf("%c",&cUserInput);
+
+	switch(cUserInput)
+	{
+		case 'L': seeLion();
+			  break();
+		case 'E': seeElephant();
+			  break();
+		default : break();
+	}
 
 	return 0;
 }

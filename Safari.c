@@ -15,7 +15,10 @@ void seeElephant()
 	printf("tooorooooo,toooroooooo\n");
 }
 
-seeLion()
+void seeLion()
+{
+	printf("\nwhooaaaaaa, whooaaaaaa");
+}
 
 int main(void)
 {

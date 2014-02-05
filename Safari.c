@@ -23,6 +23,7 @@ void seeLion()
 int main(void)
 {
 	char cAnimalChoice;
+	printf("Type 'E' if you want to see an elephant. 'L' if you want to see a lion");
 	scanf("%c",&cAnimalChoice);
 
 	if(cAnimalChoice=='L')

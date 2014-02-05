@@ -10,13 +10,24 @@
 
 #include <stdio.h>
 
+void seeElephant()
+{
+	printf("tooorooooo,toooroooooo\n");
+}
+
 seeLion()
-
-seeElephant()
-
 
 int main(void)
 {
+	char cAnimalChoice;
+	scanf("%c",cAnimalChoice);
+
+	if(cAnimalChoice=='L')
+		seeLion();
+	else if(cAnimalChoice=='E')
+		seeElephant();
+	else
+		printf("Please restart the program");
 
 	return 0;
 }

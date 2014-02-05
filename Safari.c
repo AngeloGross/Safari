@@ -23,7 +23,7 @@ void seeLion()
 int main(void)
 {
 	char cAnimalChoice;
-	scanf("%c",cAnimalChoice);
+	scanf("%c",&cAnimalChoice);
 
 	if(cAnimalChoice=='L')
 		seeLion();
